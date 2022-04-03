@@ -1,0 +1,33 @@
+{
+  "name": "qiankun-level-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "npm-run-all --serial install:*",
+    "install:main": "cd main && npm i",
+    "install:son-vue": "cd vue-dome && npm i",
+    "install:son-react": "cd react-dome && npm i",
+    "start:dev": "npm-run-all --parallel start-dev:*",
+    "start-dev:main": "cd main && npm run serve:dev ",
+    "start-dev:son-vue": "cd vue-dome && npm run serve:dev",
+    "start-dev:son-react": "cd react-dome && npm run start:dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devenlf/qiankun-level-system.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devenlf/qiankun-level-system/issues"
+  },
+  "homepage": "https://github.com/devenlf/qiankun-level-system#readme",
+  "dependencies": {
+    "npm-run-all": "^4.1.5"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}

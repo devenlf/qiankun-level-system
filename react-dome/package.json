@@ -13,7 +13,7 @@
     "yarn": "^1.22.18"
   },
   "scripts": {
-    "start:dev": "cross-env NODE_ENV=dev PORT=7777 && craco start",
+    "start:dev": "cross-env NODE_ENV=dev && craco start",
     "build": "react-app-rewired  build",
     "test": "react-app-rewired  test",
     "eject": "react-app-rewired  eject"

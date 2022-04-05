@@ -31,6 +31,11 @@
   "devDependencies": {
     "axios": "^0.26.1",
     "cross-env": "^7.0.3",
-    "react-app-rewired": "^2.2.1"
+    "element-plus": "^2.1.8",
+    "less": "^4.1.2",
+    "less-loader": "^10.2.0",
+    "react-app-rewired": "^2.2.1",
+    "scss": "^0.2.4",
+    "scss-loader": "^0.0.1"
   }
 }

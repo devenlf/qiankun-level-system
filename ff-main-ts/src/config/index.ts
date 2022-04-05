@@ -1,0 +1,1 @@
+export const globalPage = ['/login','/404','/error']

@@ -1,11 +1,13 @@
 <template>
-  <router-view></router-view>
+  <router-view>
+      <div id="subapp-viewport"></div>
+  </router-view>
 </template>
 
 <script>
 import { start } from 'qiankun';
 export default {
-  name: 'App',
+  name: 'Layout',
   mounted() {
     if (!window.qiankunStarted) {
       window.qiankunStarted = true;

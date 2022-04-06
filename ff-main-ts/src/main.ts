@@ -12,7 +12,6 @@ addGlobalUncaughtErrorHandler((event) => {
    console.error(event);
 });
 
-console.log(ElementPlus)
 registerMicroApps(subMap)
 const app = createApp(App)
 app.use(router)

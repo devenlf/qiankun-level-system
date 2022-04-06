@@ -49,16 +49,16 @@ const subMapList = subMap.map(item=>{
   return item.activeRule
 })
 
-router.beforeEach((to, _from, next) => {
-  console.log(to, _from)
-  if(to.matched.length === 0 && !subMapList.includes(to.path)){
-    //  404 逻辑
-    router.push('/404')
-    return
-  }
+// router.beforeEach((to, _from, next) => {
+//   console.log(to, _from)
+//   if(to.matched.length === 0 && !subMapList.includes(to.path)){
+//     //  404 逻辑
+//     router.push('/404')
+//     return
+//   }
 
-  next()
-})
+//   next()
+// })
 
 // // 页面进入之后
 // router.afterEach(() => {

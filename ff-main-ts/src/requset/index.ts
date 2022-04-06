@@ -1,6 +1,6 @@
 import Request from "./request";
 const request = new Request({
-  baseURL: "http://www.tianqiapi.com",
+  baseURL: process.env.BASEURL,
   timeout: 1000 * 60 * 5,
   intercceptors: {
     requestInterceptors: (config) => {

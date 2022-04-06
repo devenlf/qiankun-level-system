@@ -62,7 +62,7 @@ export default {
   },
   methods: {
       submitForm() {
-        // router.push('./regist')
+        router.push('./regist')
         this.$refs[formName].validate((valid) => {
           if (valid) {
             alert('submit!');

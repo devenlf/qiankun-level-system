@@ -11,4 +11,10 @@ export const subMap =[
       container: '#sub-app',
       activeRule: '/app-vue',
     },
+    {
+      name: 'manage-admin-default-web',
+      entry: 'http://localhost:4441',
+      container: '#sub-app',
+      activeRule: '/vue3',
+    },
   ]

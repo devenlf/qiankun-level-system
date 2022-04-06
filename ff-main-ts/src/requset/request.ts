@@ -10,6 +10,7 @@ class Request {
   cancleRequestSourceList?: Map<string, () => void>;
   // 存放所有请求url集合
   requestUrlList?: Set<String>;
+    get: any;
 
   constructor(config: RequestConfig) {
     this.instance = axios.create(config);
